@@ -123,23 +123,32 @@ class TipsCategoryPage extends StatelessWidget {
         child: SafeArea(
           child: ListView(
             padding: const EdgeInsets.all(20),
-            children: [
+            children: [Row(
+                children: [
+                  IconButton(
+                    icon: const Icon(Icons.arrow_back, color: Colors.white),
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                  ),
               // 🔤 HEADER
               const Text(
                 "Health Tips",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 26,
+                  fontSize: 24,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
+                ],
+            ),
               const SizedBox(height: 20),
 
               const Text(
-                "Good Morning !",
+                "Welcome Back !",
                 style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
