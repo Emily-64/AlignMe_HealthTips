@@ -1,16 +1,38 @@
-# healthtips
+# 🧘 AlignMe – Health Tips Module
 
-A new Flutter project.
+AlignMe Health Tips is a Flutter-based wellness module designed to help users build healthy daily habits through structured guidance, rich content, and a modern UI experience.
 
-## Getting Started
+This module focuses on **Hydration, Fitness, Sleep, Nutrition, and Stress Management**, presented in a premium **Maroon glassmorphism design** for a calm and engaging user experience.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🌿 Category-based health tips  
+  - Hydration  
+  - Fitness  
+  - Sleep  
+  - Nutrition  
+  - Stress Management  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 📖 Detailed tips page for each category:
+  - Why it matters
+  - Benefits
+  - Daily tips
+  - Simple routines
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter
+- **Language:** Dart
+- **UI Design:** Material Design + Custom Glassmorphism
+- **State Management:** Stateless widgets (current phase)
+- **Platform:** Android (tested on physical device)
+
+---
+
+
+
+
